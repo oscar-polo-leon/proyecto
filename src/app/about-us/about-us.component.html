@@ -167,45 +167,36 @@
     }
   }
 </style>
-<nav class="mt-3">
-  <div class="container-fluid">
-    <div class="row w-100">
-      <div class="col-auto d-flex ms-3">
-        <img src="ico.png" alt="Logo" style="height: 30px;">
-        <h6>CCT</h6>
-      </div>
-      <!-- Menú centrado -->
-      <div class="col d-flex justify-content-center">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link"  href="/services">Servicios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about-us">Conozcanos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/features">Cáracteristicas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/prices">Precios</a>
-          </li>
-        </ul>
-      </div>
+<div class="body">
 
-      <!-- Menú final -->
-      <div class="col d-flex justify-content-end">
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="/login">Acceso</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/register">Inscribirse</a>
-          </li>
-        </ul>
-      </div>
+<main class="main col-md-12">
+
+  <div class="content row">
+    <div class="left-side col-md-7 mt-5">
+
+      <h1>Nos preocupamos por nuestros clientes.</h1>
+        <p>Si prefieres puedes comunicarte directamente al número +57 604 4199162 o por medio de corre electronico a 'CCT'</p>
     </div>
   </div>
-</nav>
+  <div class="left-side col-md-5 m-5 p-5 shadow rounded" >
+    <form class="text-center">
+      <h5 class="mb-5 text-secondary fw-bolder">Dejanos tus datos y un asesor se pondrá en contacto en el menor tiempo posible</h5>
 
-<router-outlet></router-outlet>
+      <div class="mb-3">
+        <input type="text" class="form-control" id="exampleInputname1" aria-describedby="nameHelp" placeholder="Nombre">
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo eléctronico">
+      </div>
+      <div class="mb-3">
+        <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Celular">
+      </div>
+      <div class="mb-3">
+        <input type="text-area" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Motivo de contacto">
+      </div>
 
+      <button type="submit" class="btn btn-primary mt-3 w-100">Enviar</button>
+    </form>
+  </div>
+</main>
+</div>
